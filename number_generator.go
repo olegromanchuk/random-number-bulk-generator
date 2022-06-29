@@ -19,7 +19,7 @@ func checkErr(err error) {
 
 func main() {
 
-	fmt.Printf("Enter start, end floats and amount of numbers separated by space: ")
+	fmt.Printf("Enter minimum, maximum floats and amount of numbers which you want to generate, separated by space (i.e. 5000 6000 15): ")
 	reader := bufio.NewScanner(os.Stdin)
 	reader.Scan()
 	userInputOnePiece := reader.Text()
